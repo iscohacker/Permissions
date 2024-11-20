@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE79E"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/location"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#FFBCBC"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:id="@+id/joylashuvinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Joylashuv ruxsatnomasi: Yo'q"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/contact"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#FFBCBC"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:id="@+id/kontaktinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kontakt ruxsatnomasi: Yo'q"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/sms"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#FFBCBC"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:id="@+id/smsinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SMS ruxsatnomasi: Yo'q"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/kalendar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#FFBCBC"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:id="@+id/kalendarinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kalendar ruxsatnomasi: Yo'q"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/telefon"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#FFBCBC"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:id="@+id/telefoninfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Telefon ruxsatnomasi: Yo'q"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mikrofon"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#FFBCBC"
+        app:strokeWidth="2dp">
+
+        <TextView
+            android:id="@+id/mikrofoninfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mikrofon ruxsatnomasi: Yo'q"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ruxsatlarni bekor qilish"
+    android:textColor="#FF0000"/>
+</LinearLayout>
